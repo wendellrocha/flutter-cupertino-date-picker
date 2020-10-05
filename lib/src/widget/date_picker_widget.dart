@@ -19,7 +19,7 @@ const List<int> _solarMonthsOf31Days = const <int>[1, 3, 5, 7, 8, 10, 12];
 class DatePickerWidget extends StatefulWidget {
   DatePickerWidget({
     Key key,
-    this.onMonthChangeStartWithFirstDate,
+    this.onMonthChangeStartWithFirstDate = false,
     this.minDateTime,
     this.maxDateTime,
     this.initialDateTime,

@@ -52,6 +52,7 @@ class _StringsAr extends _StringsI18n {
 
   @override
   List<String> getMonthsShort() {
+    // ignore: todo
     // TODO: implement getMonthsShort
     return null;
   }

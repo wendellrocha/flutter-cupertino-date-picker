@@ -360,6 +360,7 @@ class _DateTimePickerWidgetState extends State<DateTimePickerWidget> {
 
   /// change the selection of minute picker
   void _changeMinuteSelection(int index) {
+    // ignore: todo
     // TODO: copied from time_picker_widget - this looks like it would break date ranges but not taking into account _minuteRange.first
     int value = index * _minuteDivider;
 //    int value = _minuteRange.first + index;
